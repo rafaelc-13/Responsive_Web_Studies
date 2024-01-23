@@ -1,6 +1,17 @@
 Project Overview
 The "Cafe Menu" project is a beginner-friendly HTML and CSS study exercise, where you build a simple webpage for a cafe menu. The project aims to teach and reinforce the use of HTML tags and CSS styling to structure and design a webpage.
 
+Learning Achievements
+This project covers the following studies and concepts:
+
+  Basic HTML structure (DOCTYPE, head, body)
+  HTML tags (h1, h2, p, section, article, img, hr, a)
+  CSS styling (background, font-family, padding, margin, max-width)
+  Class and ID usage for styling specific elements
+  Responsive design using media queries (viewport meta tag)
+  Linking external stylesheets
+  Image elements and alt attributes for accessibility
+
 HTML Structure
 The HTML structure is divided into sections, each representing a category in the cafe menu. Here's a breakdown:
 
