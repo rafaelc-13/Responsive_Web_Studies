@@ -1,0 +1,28 @@
+Welcome to the documentation regarding the English Survey Form project! This project involves creating a survey form using HTML and styling it using CSS.
+
+The form gathers information about the participant's name, email, mobile phone, English study level, EF score(test), experience with the English language, and weaknesses in English.
+
+Project Features
+Header and Description:
+The project starts using a header stating "English Survey" and a description asking about the participant's English skills.
+  
+Form Sections:
+The form is divided into sections, each focusing on collecting specific information from the participant.
+  
+Personal Information:
+Collects the participant's name, email, and mobile phone.
+  
+Questionnaire:
+Asks if the participant has studied English before and provides options for different proficiency levels.
+  
+Score Data:
+Asks about the participant's EF score using radio buttons.
+  
+Text Area:
+Allows participants to share their past experience with the English language.
+  
+Checkboxes:
+Provides checkboxes to select weaknesses in the English language.
+  
+Submit Button:
+A submit button at the end to submit the survey.
