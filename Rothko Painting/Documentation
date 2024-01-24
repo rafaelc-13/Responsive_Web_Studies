@@ -1,0 +1,24 @@
+Project Overview
+Welcome to the documentation for the Rothko-Style Art Project!
+ In this project, we explore the CSS Box Model to create rectangular art pieces inspired by the style of artist Mark Rothko. 
+ Each HTML element is treated as an individual box, allowing us to control spacing, borders, and visual effects using the Box Model principles.
+
+Project Features
+
+Canvas and Frame:
+The project includes a canvas div within a frame, simulating the space for Rothko-style art.
+
+Rectangular Art Pieces:
+Three div elements named "one," "two," and "three" represent individual art pieces with unique styles.
+
+CSS Box Model:
+Utilizes width, height, margin, padding, and border properties to control the layout and appearance of each box.
+
+Color and Styling:
+Different background colors and box-shadow effects are applied to create visual interest and mimic Rothko's style.
+
+Transformations:
+Uses the transform property to rotate and position the art pieces for a dynamic and artistic effect.
+
+Filter and Blur:
+Applies the filter property to add blur effects, enhancing the artistic appeal of the project.
