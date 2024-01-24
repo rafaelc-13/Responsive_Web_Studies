@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charser="UTF-8">
+    <title>English Survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <!-- Header-->
+    <h1 id="title">English Survey</h1>
+    <p id="description">How is your english skills?</p>
+
+    <!-- Form section-->
+    <form id="survey-form">
+
+      <!--Personal information-->
+      <fieldset>
+      <label for="name-label" id="name-label">Enter Your name:</label> 
+      <input id="name" type="text" name="name" placeholder="Your name here" required/>
+
+      <label for="email-label" id="email-label">Enter Your Email:</label> 
+      <input id="email" type="email" name="email" placeholder="123@mail"required/>
+
+      <label for="number-label" id="number-label">Mobile Phone</label>
+      <input id="number" type="number" min="0000000" max="99999999" placeholder="9999-9999"required/>
+      </fieldset>
+
+      <!--Questionaire-->
+      <fieldset>
+      <p>Have you studied english before?</p>
+      <select id="dropdown" name="english-level">
+        <option value="">Select one</option>
+        <option value="beginner">Yes, I'm a beginner speaker</option>
+        <option value="intermediate">Yes, I'm an intermediate speaker</option>
+        <option value="advanced">Yes, I'm an advanced speaker</option>
+        <option value="never">No</option> 
+      </select>
+      </fieldset>
+
+      <!--Score Data-->
+    <fieldset>
+    <div class="radio-options">  
+      <p>Tell us about your EF score</p>
+      <label for="radio-A1">
+        <input name="radio" id="radio-A1" type="radio" value="A1"checked/>A1</label>
+      <label for="radio-A2">
+        <input name="radio" id="radio-A2" type="radio" value="A2"/>A2</label>
+      <label for="radio-B1">
+        <input name="radio" id="radio-B1" type="radio" value="B1"/>B1</label>
+      <label for="radio-B2">
+        <input name="radio" id="radio-B2" type="radio" value="B2"/>B2</label>
+      <label for="radio-C1">
+        <input name="radio" id="radio-C1" type="radio" value="C1"/>C1</label>
+      <label for="radio-C2">
+        <input name="radio" id="radio-C2" type="radio" value="C2"/>C2</label>
+    </div>
+    </fieldset>
+
+    <!--TEXT-->
+    <fieldset>
+    <label for="textarea">Tell us about your past experience with the English language</label>
+      <textarea id="textarea" name="textarea" rows="3" cols="30" placeholder="I have been studying english for..." required></textarea> 
+    </fieldset>
+
+    <!--Checkboxes-->
+    <fieldset>
+        <legend>What is your weakness in the English language?</legend>
+        <label for ="speaking">
+          <input name="weakness" id="speaking" type="checkbox" value="speaking" checked/>Speaking</label>
+        <label for ="reading">
+          <input name="weakness" id="reading" type="checkbox" value="reading"/>Reading</label>
+        <label for ="writing">
+          <input name="weakness" id="writing" type="checkbox" value="writing"/>Writing</label>
+        <label for ="all">
+          <input name="weakness" id="all" type="checkbox" value="all"/>All</label>
+
+        <input id="submit" type="submit"/> 
+    </fieldset>
+    </form>             
+  </body>
+</html>
