@@ -1,0 +1,18 @@
+Project Features
+
+Header Section:
+The header contains the title of the photo gallery, styled with a centered, uppercase format.
+
+Gallery Section:
+Utilizes Flexbox properties to create a responsive gallery layout.
+Images are displayed in a row, with a wrap to the next row when needed.
+
+justify-content: center centers the images horizontally, and align-items: center centers them vertically.
+gap adds spacing between the images.
+
+Image Styling:
+Images have a maximum width of 350px, maintaining responsiveness.
+
+object-fit: 
+cover ensures images fill their containers while maintaining aspect ratio.
+border-radius adds a subtle border-radius for a cleaner look.
