@@ -1,0 +1,28 @@
+Project Overview
+Typography is a fundamental aspect of web design that involves styling text for readability and visual appeal. In this project, the goal is to leverage typography skills to create a nutrition label webpage. The focus includes text styling, adjusting line heights, and positioning text using CSS.
+
+Project Features
+Header Section:
+The header contains the main title and additional serving information.
+
+Calories Information:
+Displays the amount of calories per serving.
+
+Daily Value Information:
+Provides the percentage of daily value for various nutrients.
+Uses flexbox to align and space nutrient information.
+
+Note Section:
+Contains a note about the daily value percentage.
+
+Typography Styling:
+Applied various typography styles such as bold, letter-spacing, and font-weight for visual appeal and emphasis.
+
+Flexbox Usage:
+Utilized Flexbox to structure and align nutrient information in a clear and organized manner.
+
+Responsive Design:
+Set a base font size to ensure better responsiveness across different devices.
+
+CSS Selectors and Properties:
+Employed a variety of CSS selectors and properties to achieve specific text styling and layout requirements.

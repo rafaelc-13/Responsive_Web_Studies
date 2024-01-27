@@ -1,0 +1,116 @@
+/* Box sizing for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Set base font size for better responsiveness */
+html {
+    font-size: 16px;
+}
+
+/* Body styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nutrition Label Container styling */
+.label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+/* Header Section styling */
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+/* Paragraph styling */
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Divider styling */
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+/* Bold text styling */
+.bold {
+    font-weight: 800;
+}
+
+/* Large and Medium Divider styling */
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+
+.large {
+    height: 10px;
+}
+
+.medium {
+    height: 5px;
+}
+
+/* Small text styling */
+.small-text {
+    font-size: 0.85rem;
+}
+
+/* Calories Information styling */
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.calories-info h2 {
+    margin: 0;
+}
+
+.left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.calories-info span {
+    margin: -7px -2px;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+/* Align text to the right */
+.right {
+    justify-content: flex-end;
+}
+
+/* Indentation for sub-nutrient information */
+.indent {
+    margin-left: 1em;
+}
+
+.double-indent {
+    margin-left: 2em;
+}
+
+/* Styling for Daily Value section */
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+}
+
+/* Note Section styling */
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0px 8px;
+    text-indent: -8px;
+}
