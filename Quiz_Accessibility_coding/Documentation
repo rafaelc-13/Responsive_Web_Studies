@@ -1,0 +1,44 @@
+Project Documentation: Accessibility Quiz
+Project Overview:
+
+    Accessibility is the key focus of this project. The goal is to create an accessible quiz webpage, incorporating keyboard shortcuts, ARIA attributes, and design best practices.
+
+Design Choices:
+
+    HTML Structure:
+    Sections are used to divide content logically.
+    role and aria-labelledby attributes are applied for accessibility.
+    A form is created with sections for student information, HTML questions, and CSS questions.
+    Descriptive labels and alt attributes for images ensure accessibility.
+
+    CSS Styling:
+    Responsive design using media queries for smooth scrolling.
+    Clear styling for headers, navigation, forms, and footer.
+    Use of relative units (vw, em) for better responsiveness.
+
+    CSS Classes and Ids:
+    Classes and ids are used to style specific elements and improve maintainability.
+    The .sr-only class is added for visually hidden elements used for screen readers.
+
+Accessibility Considerations:
+
+    Semantic HTML:
+    Proper use of semantic HTML elements (header, nav, main, section, form, etc.).
+    Labels, legends, and ARIA attributes enhance screen reader support.
+    ARIA roles and attributes are used for accessibility. The role attribute is added to sections, and aria-labelledby is used for better screen reader support.
+
+    Keyboard Navigation:
+    Accessible navigation with keyboard shortcuts (accesskey attribute).
+    Ensured tabindex for focusable elements.
+
+    Readable Text:
+    Sufficient color contrast for text readability.
+    Use of appropriate font size and family for improved legibility.
+
+Comments:
+    Comments have been added to the code to explain specific sections and design choices.
+    Clarifications on why certain elements and attributes were chosen for better connectivity and accessibility.
+
+Accessibility Considerations:
+Accesskeys are provided for quick navigation, considering users who may rely on keyboard shortcuts.
+Labels and descriptions are added for form elements to improve accessibility.
