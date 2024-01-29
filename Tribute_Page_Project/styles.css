@@ -1,0 +1,60 @@
+#image-div{
+  text-align:center;
+}
+#image{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:0 auto;
+}
+
+body {
+  background-color: #ecf0f5; /* Light blue background for the whole page */
+  color: #ffffff; /* White text color */
+  font-size: 16px; /* Set a base font size */
+  margin: 0; /* Remove default body margin */
+}
+
+#main {
+  background-color: #3498db; /* Dark blue background for the main section */
+  text-align: center; /* Center the content within the main section */
+  padding: 20px; /* Add padding for better visual appeal */
+}
+
+#image-div {
+  margin: 20px 0; /* Add some space above and below the image */
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-data {
+  float: right; /* Float player data to the right */
+  max-width: 50%; /* Set a maximum width for better readability */
+}
+
+#tribute-info {
+  clear: both; /* Clear the float to ensure proper layout */
+  box-sizing: border-box; /* Include padding and border in the width */
+  padding: 20px; /* Add padding to the player info box */
+  text-align: left; /* Align titles to the left */
+}
+
+#official-titles {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#tribute-link {
+  color: #ffffff; /* White color for the link */
+  text-decoration: none; /* Remove underline from the link */
+  border-bottom: 1px solid #ffffff; /* Add a bottom border for a link-like appearance */
+}
+
+#tribute-link:hover {
+  color: #e74c3c; /* Change link color on hover */
+}
