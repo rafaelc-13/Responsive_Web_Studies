@@ -1,0 +1,24 @@
+HTML:
+
+Accessibility: using a visually hidden class (sr-only) to provide screen reader users with additional information. This is a good practice for enhancing accessibility.
+
+Semantic HTML: Using <h1>, <section>, <table>, <thead>, <tbody>, <tr>, <th>, and <td> elements appropriately, contributing to a semantically meaningful structure.
+
+Styling Classes: Using classes like data, total, and current for styling specific rows and cells. Chosen approach to keep styling modular and reusable.
+
+
+CSS:
+
+Box Sizing: Use of box-sizing and border-box in the html selector. Ensuring that padding and border are included in the element's total width and height.
+
+Typography: Set a maximum width for h1, aiming for a good practice for controlling the layout. Also, using the flex property for the <span> elements within <h1>.
+
+Sticky Header: You've applied a sticky header for the years, to keep the context visible as users scroll improving UX design.
+
+Responsive Design: Tables and other elements have responsive styling, adapting to different screen sizes.
+
+Color Usage: Use of color for highlighting total rows on hover is intuitive.
+
+Pseudo-elements: Using pseudo-elements like :hover to enhance user interaction.
+
+Specificity: The specificity to selectors make it easier to maintain the styles.
